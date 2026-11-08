@@ -804,7 +804,7 @@ def create_glomerular_barrier_figure(
         fig.add_trace(go.Scatter(
             x=[8.1, 8.7, 9.3, 8.4, 9.0], y=[1.8, 2.5, 1.8, 3.4, 3.4],
             mode="markers",
-            marker=dict(size=22, color="#22c55e", symbol="Pentagon", line=dict(width=2, color="#14532d")),
+            marker=dict(size=22, color="#22c55e", symbol="pentagon", line=dict(width=2, color="#14532d")),
             name="PATOLOGIC: Complexe Imune Mezangiale (Gd-IgA1 + C3)",
             hovertemplate="<b>Depozite Mezangiale Dominante de IgA1</b><br>Complexe Gd-IgA1 + anti-Gd-IgA1 depuse în matricea mezangială.<extra></extra>"
         ))
